@@ -24,7 +24,7 @@
 	
 	# Run linter and show the output in a textmate window
 	cd "${TM_BUNDLE_SUPPORT}/reporter/"
-	node index.js --reporter textmate-reporter.js --config "${JSHINT_CONFIG}" "${TM_FILEPATH}"
+	/usr/local/bin/node index.js --reporter textmate-reporter.js --config "${JSHINT_CONFIG}" "${TM_FILEPATH}"
 
 	exit 0
 	</string>

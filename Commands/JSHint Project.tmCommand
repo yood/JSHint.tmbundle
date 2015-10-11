@@ -27,7 +27,7 @@
 	# run nodelint on the current file and output as a tool tip summary
 	cd "${TM_BUNDLE_SUPPORT}/reporter/"
 
-	node index.js --reporter textmate-reporter.js --config "${JSHINT_CONFIG}" "${TM_PROJECT_DIRECTORY}"
+	/usr/local/bin/node index.js --reporter textmate-reporter.js --config "${JSHINT_CONFIG}" "${TM_PROJECT_DIRECTORY}"
 
 	exit 0
 	</string>

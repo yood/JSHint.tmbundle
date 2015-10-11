@@ -24,7 +24,7 @@
 	
 	# Run linter and show minimal output in a tool tip summary
 	cd "${TM_BUNDLE_SUPPORT}/reporter/"
-	node index.js --reporter textmate-tooltip-reporter.js --config "${JSHINT_CONFIG}" "${TM_FILEPATH}"
+	/usr/local/bin/node index.js --reporter textmate-tooltip-reporter.js --config "${JSHINT_CONFIG}" "${TM_FILEPATH}"
 
 	exit 0
 	</string>
